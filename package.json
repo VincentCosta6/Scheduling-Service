@@ -2,12 +2,24 @@
   "name": "scheduler",
   "version": "1.0.0",
   "description": "Scheduling Service",
-  "scripts" : {
-    "start" : "node server.js"
+  "scripts": {
+    "start": "node server.js"
   },
-  "main" : "server.js",
+  "main": "server.js",
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/VincentCosta6/Yeemazon.git"
-    },
+    "type": "git",
+    "url": "git+https://github.com/VincentCosta6/Scheduling-Service"
+  },
+  "author": "Vincent Costa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/VincentCosta6/Yeemazon/issues"
+  },
+  "homepage": "https://github.com/VincentCosta6/Yeemazon#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "client-sessions": "^0.8.0",
+    "express": "^4.16.3",
+    "http": "0.0.0"
+  }
 }
