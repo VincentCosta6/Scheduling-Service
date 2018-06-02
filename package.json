@@ -1,0 +1,13 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "Scheduling Service",
+  "scripts" : {
+    "start" : "node server.js"
+  },
+  "main" : "server.js",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VincentCosta6/Yeemazon.git"
+    },
+}
